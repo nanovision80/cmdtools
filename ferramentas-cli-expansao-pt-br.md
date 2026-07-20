@@ -169,3 +169,87 @@ Novas ferramentas selecionadas para complementar a curadoria original, incluindo
 - **shell-gpt (sgpt)** (Assistente de Shell): Integra modelos de linguagem diretamente ao shell, gerando e explicando comandos a partir de linguagem natural.
   - *Ponto Forte:* Converte descrições em português/inglês diretamente em comandos shell prontos para execução.
   - *Público-alvo:* Usuários que esquecem sintaxes complexas de `find`, `awk` ou `ffmpeg`.
+
+# 🚀 Curadoria de Ferramentas de Linha de Comando (CLI)
+
+Uma coleção selecionada com 50 ferramentas de linha de comando indispensáveis para desenvolvedores, administradores de sistema e entusiastas de tecnologia. Divididas por categorias para facilitar a navegação.
+
+---
+
+## 🎬 Manipulação de Mídia (Vídeo, Áudio e Imagem)
+
+* **ffmpeg**: O canivete suíço para converter, gravar e transmitir áudio e vídeo.
+* **exiftool**: Leitura, escrita e edição de metadados em uma enorme variedade de arquivos.
+* **imagemagick**: Criação, edição, composição e conversão de imagens bitmap.
+* **yt-dlp**: Utilitário robusto para baixar vídeos e áudios do YouTube e de centenas de outros sites.
+* **graphicsmagick**: Uma alternativa derivada do ImageMagick, focada em maior velocidade e eficiência.
+* **sox**: O "FFmpeg dos arquivos de áudio", ideal para ler, escrever e processar efeitos sonoros.
+* **gifsicle**: Criação, edição e otimização pesada de animações em formato GIF.
+* **svgo**: Otimizador de arquivos SVG baseado em Node.js, ideal para web design.
+
+---
+
+## 🌐 Redes, Downloads e APIs
+
+* **curl**: Transferência de dados usando sintaxe de URL (HTTP, FTP, IMAP, etc.), essencial para testar APIs.
+* **wget**: Download não interativo de arquivos da web, excelente para downloads recursivos e espelhamento.
+* **httpie**: Um cliente HTTP de linha de comando moderno, amigável e com destaque de sintaxe por padrão.
+* **nmap**: Ferramenta de exploração de rede, varredura de portas e auditoria de segurança.
+* **mtr**: Combina a funcionalidade dos comandos `traceroute` e `ping` em uma única ferramenta de diagnóstico.
+* **aria2**: Utilitário leve de download multiprotocolo que suporta links HTTP/HTTPS, FTP, BitTorrent e Metalink.
+* **speedtest-cli**: Interface de linha de comando para testar a largura de banda da sua internet usando o Speedtest.net.
+* **socat**: Conector multipropósito que estabelece dois fluxos de dados bidirecionais entre diferentes tipos de canais.
+
+---
+
+## 📂 Manipulação e Processamento de Dados (Texto, JSON, CSV)
+
+* **jq**: Processador de dados JSON flexível, ideal para filtrar, mapear e transformar objetos complexos.
+* **ripgrep (rg)**: Uma alternativa ultrarrápida ao `grep` que respeita seus arquivos `.gitignore` por padrão.
+* **fzf**: Localizador interativo (fuzzy finder) de uso geral para arquivos, histórico de comandos e processos.
+* **sed**: Editor de fluxo de texto usado para realizar transformações básicas em um fluxo de entrada.
+* **awk**: Linguagem de programação versátil projetada para processamento de padrões e dados textuais.
+* **bat**: Um clone do comando `cat` com realce de sintaxe integrado e integração com o Git.
+* **fx**: Visualizador JSON interativo de terminal que permite expandir e recolher nós facilmente.
+* **xsv**: CLI rápida para indexação, fatiamento, análise e junção de arquivos CSV.
+* **yq**: Um wrapper portátil de linha de comando para o `jq`, adaptado para arquivos YAML, XML e TOML.
+
+---
+
+## 🖥️ Monitoramento de Sistema e Recursos
+
+* **htop**: Visualizador de processos interativo e colorido, uma evolução direta do clássico `top`.
+* **btop**: Monitor de recursos impressionante e altamente visual que exibe CPU, memória, discos e rede.
+* **duf**: Utilitário moderno de uso de disco que exibe informações de forma clara e colorida.
+* **ncdu**: Analisador de uso de disco baseado em texto (ncurses), perfeito para encontrar o que está ocupando espaço.
+* **glances**: Monitor de sistema multiplataforma baseado em Python que condensa dezenas de métricas em uma tela.
+* **fastfetch**: Ferramenta de informação do sistema altamente customizável e rápida (sucessor espiritual do `neofetch`).
+* **procs**: Um substituto moderno para o comando `ps`, escrito em Rust, com cores e busca aprimorada.
+* **iostat**: Monitor de carga de dispositivos de armazenamento do sistema e uso de CPU.
+
+---
+
+## ⚡ Produtividade, Navegação e Utilitários
+
+* **tldr**: Páginas de manual simplificadas e focadas na comunidade, mostrando apenas exemplos práticos de uso.
+* **zoxide**: Um substituto inteligente para o comando `cd` que aprende seus hábitos para navegar mais rápido.
+* **eza**: Um substituto moderno, customizável e cheio de recursos para o tradicional comando `ls`.
+* **tmux**: Multiplexador de terminal que permite gerenciar várias sessões e janelas em uma única tela.
+* **rclone**: Sincroniza arquivos e diretórios de/para dezenas de serviços de armazenamento em nuvem (Drive, S3, etc.).
+* **pandoc**: O conversor de documentos universal, transformando Markdown, PDF, DOCX, HTML e mais.
+* **trash-cli**: Envia arquivos para a lixeira do sistema em vez de deletá-los permanentemente com o `rm`.
+* **micro**: Editor de texto moderno baseado em terminal, intuitivo e com suporte nativo a atalhos padrão (Ctrl+C, Ctrl+V).
+* **ranger**: Gerenciador de arquivos de terminal com mapeamento de teclas VI e visualização prévia de arquivos.
+
+---
+
+## 🛠️ Desenvolvimento, Versionamento e Automação
+
+* **git**: O sistema de controle de versão distribuído padrão de mercado.
+* **gh**: A interface de linha de comando oficial do GitHub para gerenciar Issues, Pull Requests e Repositórios.
+* **make**: Utilitário de automação de compilação que determina automaticamente quais partes de um programa precisam ser recriadas.
+* **direnv**: Extensão para o seu shell que carrega e descarrega variáveis de ambiente dependendo do diretório atual.
+* **hyperfine**: Ferramenta de benchmarking de linha de comando estatística para medir o tempo de execução de comandos.
+* **shellcheck**: Ferramenta de análise estática (linter) que encontra bugs e avisa sobre más práticas em scripts Bash/Sh.
+* **lazygit**: Interface visual simples de terminal para comandos Git, ideal para quem quer agilizar o fluxo de trabalho.
+* **act**: Execute suas ações do GitHub Actions localmente dentro do terminal usando containers Docker.
